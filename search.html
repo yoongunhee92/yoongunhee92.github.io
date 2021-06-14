@@ -47,26 +47,26 @@
     <![endif]-->
     
     <!-- This tag outputs SEO meta+structured data and other important settings -->
-    <meta name="description" content="공부정리 블로그" />
+    <meta name="description" content="공부정리" />
     <link rel="shortcut icon" href="https://yoongunhee92.github.io/assets/built/images/favicon.jpg" type="image/png" />
     <link rel="canonical" href="https://yoongunhee92.github.io/search" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
-    <meta property="og:site_name" content="Studing Hard" />
+    <meta property="og:site_name" content="공부정리" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Search Result" />
-    <meta property="og:description" content="공부정리 블로그" />
+    <meta property="og:description" content="공부정리" />
     <meta property="og:url" content="https://yoongunhee92.github.io/search" />
     <meta property="og:image" content="https://yoongunhee92.github.io/assets/built/images/blog-cover1.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Search Result" />
-    <meta name="twitter:description" content="공부정리 블로그" />
+    <meta name="twitter:description" content="공부정리" />
     <meta name="twitter:url" content="https://yoongunhee92.github.io/" />
     <meta name="twitter:image" content="https://yoongunhee92.github.io/assets/built/images/blog-cover1.png" />
     <meta name="twitter:label1" content="Written by" />
-    <meta name="twitter:data1" content="Studing Hard" />
+    <meta name="twitter:data1" content="공부정리" />
     <meta name="twitter:site" content="@" />
     <meta name="twitter:creator" content="@" />
     <meta property="og:image:width" content="2000" />
@@ -78,7 +78,7 @@
     "@type": "Website",
     "publisher": {
         "@type": "Organization",
-        "name": "Studing Hard",
+        "name": "공부정리",
         "logo": "https://yoongunhee92.github.io/"
     },
     "url": "https://yoongunhee92.github.io/search",
@@ -92,7 +92,7 @@
         "@type": "WebPage",
         "@id": "https://yoongunhee92.github.io/search"
     },
-    "description": "공부정리 블로그"
+    "description": "공부정리"
 }
     </script>
 
@@ -124,14 +124,14 @@ into the {body} of the default.hbs template -->
     <div class="site-nav-left">
         
             
-                <a class="site-nav-logo" href="https://yoongunhee92.github.io/">Studing Hard</a>
+                <a class="site-nav-logo" href="https://yoongunhee92.github.io/">공부정리</a>
             
         
         
             
 <ul class="nav" role="menu">
     <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
-    <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
+    <!--<li class="nav-about" role="menuitem"><a href="/about/">About</a></li>-->
     <li class="nav-jekyll" role="menuitem"><a href="/tag/html/">HTML</a></li>
     <li class="nav-python" role="menuitem"><a href="/tag/css/">CSS</a></li>
     <li class="nav-economy" role="menuitem"><a href="/tag/javascript/">JavaScript</a></li>
@@ -183,56 +183,11 @@ into the {body} of the default.hbs template -->
 <script>
     window.store = {
     
-    "javascript-basic3": {
-        "title": "JavaScript Basic",
-            "author": "yoongunhee92",
-            "category": "",
-            "content": "JavaScript basic3",
-        "url": "/javascript-basic3"
-    }
-    ,
-    
-    "javascript-basic2": {
-        "title": "JavaScript Basic",
-            "author": "yoongunhee92",
-            "category": "",
-            "content": "JavaScript basic2",
-        "url": "/javascript-basic2"
-    }
-    ,
-    
-    "javascript-basic": {
-        "title": "JavaScript Basic",
-            "author": "yoongunhee92",
-            "category": "",
-            "content": "function syntaxHighlight(code) {   var foo = 'Hello World';   var bar = 100;}JavaScript basic",
-        "url": "/javascript-basic"
-    }
-    ,
-    
-    "html-basic3": {
-        "title": "HTML Basic",
-            "author": "yoongunhee92",
-            "category": "",
-            "content": "HTML basic3",
-        "url": "/html-basic3"
-    }
-    ,
-    
-    "html-basic2": {
-        "title": "HTML Basic",
-            "author": "yoongunhee92",
-            "category": "",
-            "content": "HTML basic2",
-        "url": "/html-basic2"
-    }
-    ,
-    
     "html-basic": {
         "title": "HTML Basic",
             "author": "yoongunhee92",
             "category": "",
-            "content": "HTML basic",
+            "content": "HTML공부     HTML 기본    HTML 기본2HTML basic",
         "url": "/html-basic"
     }
     ,
@@ -241,35 +196,8 @@ into the {body} of the default.hbs template -->
         "title": "HTML Basic 2",
             "author": "yoongunhee92",
             "category": "",
-            "content": "HTML공부     HTML 기본    HTML 기본2HTML basic 2 테스트var gulp = require(&#39;gulp&#39;);// gulp plugins and utilsvar gutil = require(&#39;gulp-util&#39;);var postcss = require(&#39;gulp-postcss&#39;);var sourcemaps = require(&#39;gulp-sourcemaps&#39;);var imagemin = require(&#39;gulp-imagemin&#39;);// postcss pluginsvar autoprefixer = require(&#39;autoprefixer&#39;);var colorFunction = require(&#39;postcss-color-function&#39;);var cssnano = require(&#39;cssnano&#39;);var customProperties = require(&#39;postcss-custom-properties&#39;);var easyimport = require(&#39;postcss-easy-import&#39;);gulp.task(&#39;images&#39;, function() {    return gulp.src(&#39;assets/images/*&#39;)        .pipe(imagemin())        .pipe(gulp.dest(&#39;assets/built/images/&#39;))});gulp.task(&#39;css&#39;, function () {    var processors = [        easyimport,        customProperties,        colorFunction(),        autoprefixer({browsers: [&#39;last 2 versions&#39;]}),        cssnano()    ];    return gulp.src(&#39;assets/css/*.css&#39;)        .pipe(sourcemaps.init())        .pipe(postcss(processors))        .pipe(sourcemaps.write(&#39;.&#39;))        .pipe(gulp.dest(&#39;assets/built/&#39;))});",
+            "content": "HTML공부     HTML 기본    HTML 기본2HTML basic 2 테스트var gulp = require(&#39;gulp&#39;);// gulp plugins and utilsvar gutil = require(&#39;gulp-util&#39;);var postcss = require(&#39;gulp-postcss&#39;);var sourcemaps = require(&#39;gulp-sourcemaps&#39;);var imagemin = require(&#39;gulp-imagemin&#39;);// postcss pluginsvar autoprefixer = require(&#39;autoprefixer&#39;);var colorFunction = require(&#39;postcss-color-function&#39;);var cssnano = require(&#39;cssnano&#39;);var customProperties = require(&#39;postcss-custom-properties&#39;);var easyimport = require(&#39;postcss-easy-import&#39;);gulp.task(&#39;images&#39;, function() {    return gulp.src(&#39;assets/images/*&#39;)        .pipe(imagemin())        .pipe(gulp.dest(&#39;assets/built/images/&#39;))});gulp.task(&#39;css&#39;, function () {    var processors = [        easyimport,        customProperties,        colorFunction(),        autoprefixer({browsers: [&#39;last 2 versions&#39;]}),        cssnano()    ];    return gulp.src(&#39;assets/css/*.css&#39;)        .pipe(sourcemaps.init())        .pipe(postcss(processors))        .pipe(sourcemaps.write(&#39;.&#39;))        .pipe(gulp.dest(&#39;assets/built/&#39;))});function syntaxHighlight(code) {   var foo = 'Hello World';   var bar = 100;}",
         "url": "/html-control-statement"
-    }
-    ,
-    
-    "css-basic3": {
-        "title": "CSS Basic",
-            "author": "yoongunhee92",
-            "category": "",
-            "content": "CSS basic3",
-        "url": "/css-basic3"
-    }
-    ,
-    
-    "css-basic2": {
-        "title": "CSS Basic",
-            "author": "yoongunhee92",
-            "category": "",
-            "content": "CSS basic2",
-        "url": "/css-basic2"
-    }
-    ,
-    
-    "css-basic": {
-        "title": "CSS Basic",
-            "author": "yoongunhee92",
-            "category": "",
-            "content": "CSS basic",
-        "url": "/css-basic"
     }
     
     
@@ -302,7 +230,7 @@ $(function() {
         <!-- The footer at the very bottom of the screen -->
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="https://yoongunhee92.github.io/">Studing Hard</a> &copy; 2021</section>
+                <section class="copyright"><a href="https://yoongunhee92.github.io/">공부정리</a> &copy; 2021</section>
                 <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
                     <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
                     <a href="https://github.com/jekyllt/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
@@ -323,7 +251,7 @@ $(function() {
         <a class="subscribe-overlay-close" href="#"></a>
         <div class="subscribe-overlay-content">
             
-            <h1 class="subscribe-overlay-title">Search Studing Hard</h1>
+            <h1 class="subscribe-overlay-title">Search 공부정리</h1>
             <p class="subscribe-overlay-description">
                 lunr.js를 이용한 posts 검색 </p>
             <span id="searchform" method="post" action="/subscribe/" class="">

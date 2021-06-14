@@ -2,90 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> - Articles</title>
-    <description>공부정리 블로그</description>
+    <description>공부정리</description>
     <link>
     https://yoongunhee92.github.io</link>
     
       
       <item>
-        <title>JavaScript Basic</title>
+        <title>HTML Basic</title>
         
-          <description>&lt;p&gt;JavaScript basic3&lt;/p&gt;
-</description>
-        
-        <pubDate>Mon, 14 Jun 2021 11:56:00 +0900</pubDate>
-        <link>
-        https://yoongunhee92.github.io/javascript-basic3</link>
-        <guid isPermaLink="true">https://yoongunhee92.github.io/javascript-basic3</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>JavaScript Basic</title>
-        
-          <description>&lt;p&gt;JavaScript basic2&lt;/p&gt;
-</description>
-        
-        <pubDate>Mon, 14 Jun 2021 11:56:00 +0900</pubDate>
-        <link>
-        https://yoongunhee92.github.io/javascript-basic2</link>
-        <guid isPermaLink="true">https://yoongunhee92.github.io/javascript-basic2</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>JavaScript Basic</title>
-        
-          <description>&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;syntaxHighlight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-   &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Hello World&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-   &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;HTML공부 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./html-basic&quot;&gt;HTML 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./html-control-statement&quot;&gt;HTML 기본2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-</description>
-        
-        <pubDate>Mon, 14 Jun 2021 11:56:00 +0900</pubDate>
-        <link>
-        https://yoongunhee92.github.io/javascript-basic</link>
-        <guid isPermaLink="true">https://yoongunhee92.github.io/javascript-basic</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>HTML Basic</title>
-        
-          <description>&lt;p&gt;HTML basic3&lt;/p&gt;
-</description>
-        
-        <pubDate>Mon, 14 Jun 2021 11:56:00 +0900</pubDate>
-        <link>
-        https://yoongunhee92.github.io/html-basic3</link>
-        <guid isPermaLink="true">https://yoongunhee92.github.io/html-basic3</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>HTML Basic</title>
-        
-          <description>&lt;p&gt;HTML basic2&lt;/p&gt;
-</description>
-        
-        <pubDate>Mon, 14 Jun 2021 11:56:00 +0900</pubDate>
-        <link>
-        https://yoongunhee92.github.io/html-basic2</link>
-        <guid isPermaLink="true">https://yoongunhee92.github.io/html-basic2</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>HTML Basic</title>
-        
-          <description>&lt;p&gt;HTML basic&lt;/p&gt;
 </description>
         
         <pubDate>Mon, 14 Jun 2021 11:56:00 +0900</pubDate>
@@ -111,48 +41,6 @@
         <link>
         https://yoongunhee92.github.io/html-control-statement</link>
         <guid isPermaLink="true">https://yoongunhee92.github.io/html-control-statement</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>CSS Basic</title>
-        
-          <description>&lt;p&gt;CSS basic3&lt;/p&gt;
-</description>
-        
-        <pubDate>Mon, 14 Jun 2021 11:56:00 +0900</pubDate>
-        <link>
-        https://yoongunhee92.github.io/css-basic3</link>
-        <guid isPermaLink="true">https://yoongunhee92.github.io/css-basic3</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>CSS Basic</title>
-        
-          <description>&lt;p&gt;CSS basic2&lt;/p&gt;
-</description>
-        
-        <pubDate>Mon, 14 Jun 2021 11:56:00 +0900</pubDate>
-        <link>
-        https://yoongunhee92.github.io/css-basic2</link>
-        <guid isPermaLink="true">https://yoongunhee92.github.io/css-basic2</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>CSS Basic</title>
-        
-          <description>&lt;p&gt;CSS basic&lt;/p&gt;
-</description>
-        
-        <pubDate>Mon, 14 Jun 2021 11:56:00 +0900</pubDate>
-        <link>
-        https://yoongunhee92.github.io/css-basic</link>
-        <guid isPermaLink="true">https://yoongunhee92.github.io/css-basic</guid>
       </item>
       
     
