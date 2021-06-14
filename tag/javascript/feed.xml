@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://yoongunhee92.github.io/tag/javascript/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://yoongunhee92.github.io/" rel="alternate" type="text/html" />
+  <updated>2021-06-14T14:15:51+09:00</updated>
+  <id>https://yoongunhee92.github.io/tag/javascript/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Studing Hard | </title>
+  
+
+  
+    <subtitle>공부정리 블로그</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">JavaScript Basic</title>
+      <link href="https://yoongunhee92.github.io/javascript-basic2" rel="alternate" type="text/html" title="JavaScript Basic" />
+      <published>2021-06-14T11:56:00+09:00</published>
+      <updated>2021-06-14T11:56:00+09:00</updated>
+      <id>https://yoongunhee92.github.io/javascript-basic2</id>
+      <content type="html" xml:base="https://yoongunhee92.github.io/javascript-basic2">&lt;p&gt;JavaScript basic2&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>yoongunhee92</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="JavaScript" />
+      
+
+      
+        <summary type="html">JavaScript basic2</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">JavaScript Basic</title>
+      <link href="https://yoongunhee92.github.io/javascript-basic" rel="alternate" type="text/html" title="JavaScript Basic" />
+      <published>2021-06-14T11:56:00+09:00</published>
+      <updated>2021-06-14T11:56:00+09:00</updated>
+      <id>https://yoongunhee92.github.io/javascript-basic</id>
+      <content type="html" xml:base="https://yoongunhee92.github.io/javascript-basic">&lt;p&gt;JavaScript basic&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>yoongunhee92</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="JavaScript" />
+      
+
+      
+        <summary type="html">JavaScript basic</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">JavaScript Basic</title>
+      <link href="https://yoongunhee92.github.io/javascript-basic3" rel="alternate" type="text/html" title="JavaScript Basic" />
+      <published>2021-06-14T11:56:00+09:00</published>
+      <updated>2021-06-14T11:56:00+09:00</updated>
+      <id>https://yoongunhee92.github.io/javascript-basic3</id>
+      <content type="html" xml:base="https://yoongunhee92.github.io/javascript-basic3">&lt;p&gt;JavaScript basic3&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>yoongunhee92</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="JavaScript" />
+      
+
+      
+        <summary type="html">JavaScript basic3</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
