@@ -241,7 +241,7 @@ into the {body} of the default.hbs template -->
         "title": "HTML Basic 2",
             "author": "yoongunhee92",
             "category": "",
-            "content": "HTML공부     HTML 기본    HTML 기본2HTML basic 2 테스트",
+            "content": "HTML공부     HTML 기본    HTML 기본2HTML basic 2 테스트var gulp = require(&#39;gulp&#39;);// gulp plugins and utilsvar gutil = require(&#39;gulp-util&#39;);var postcss = require(&#39;gulp-postcss&#39;);var sourcemaps = require(&#39;gulp-sourcemaps&#39;);var imagemin = require(&#39;gulp-imagemin&#39;);// postcss pluginsvar autoprefixer = require(&#39;autoprefixer&#39;);var colorFunction = require(&#39;postcss-color-function&#39;);var cssnano = require(&#39;cssnano&#39;);var customProperties = require(&#39;postcss-custom-properties&#39;);var easyimport = require(&#39;postcss-easy-import&#39;);gulp.task(&#39;images&#39;, function() {    return gulp.src(&#39;assets/images/*&#39;)        .pipe(imagemin())        .pipe(gulp.dest(&#39;assets/built/images/&#39;))});gulp.task(&#39;css&#39;, function () {    var processors = [        easyimport,        customProperties,        colorFunction(),        autoprefixer({browsers: [&#39;last 2 versions&#39;]}),        cssnano()    ];    return gulp.src(&#39;assets/css/*.css&#39;)        .pipe(sourcemaps.init())        .pipe(postcss(processors))        .pipe(sourcemaps.write(&#39;.&#39;))        .pipe(gulp.dest(&#39;assets/built/&#39;))});",
         "url": "/html-control-statement"
     }
     ,

@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://yoongunhee92.github.io/tag/html/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://yoongunhee92.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-06-14T15:32:56+09:00</updated>
+  <updated>2021-06-14T15:46:26+09:00</updated>
   <id>https://yoongunhee92.github.io/tag/html/feed.xml</id>
 
   
@@ -111,7 +111,45 @@
     &lt;li&gt;&lt;a href=&quot;./html-control-statement&quot;&gt;HTML 기본2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;HTML basic 2 테스트&lt;/p&gt;</content>
+&lt;p&gt;HTML basic 2 테스트&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;var gulp = require(&amp;#39;gulp&amp;#39;);
+
+// gulp plugins and utils
+var gutil = require(&amp;#39;gulp-util&amp;#39;);
+var postcss = require(&amp;#39;gulp-postcss&amp;#39;);
+var sourcemaps = require(&amp;#39;gulp-sourcemaps&amp;#39;);
+var imagemin = require(&amp;#39;gulp-imagemin&amp;#39;);
+
+// postcss plugins
+var autoprefixer = require(&amp;#39;autoprefixer&amp;#39;);
+var colorFunction = require(&amp;#39;postcss-color-function&amp;#39;);
+var cssnano = require(&amp;#39;cssnano&amp;#39;);
+var customProperties = require(&amp;#39;postcss-custom-properties&amp;#39;);
+var easyimport = require(&amp;#39;postcss-easy-import&amp;#39;);
+
+gulp.task(&amp;#39;images&amp;#39;, function() {
+    return gulp.src(&amp;#39;assets/images/*&amp;#39;)
+        .pipe(imagemin())
+        .pipe(gulp.dest(&amp;#39;assets/built/images/&amp;#39;))
+});
+
+gulp.task(&amp;#39;css&amp;#39;, function () {
+    var processors = [
+        easyimport,
+        customProperties,
+        colorFunction(),
+        autoprefixer({browsers: [&amp;#39;last 2 versions&amp;#39;]}),
+        cssnano()
+    ];
+
+    return gulp.src(&amp;#39;assets/css/*.css&amp;#39;)
+        .pipe(sourcemaps.init())
+        .pipe(postcss(processors))
+        .pipe(sourcemaps.write(&amp;#39;.&amp;#39;))
+        .pipe(gulp.dest(&amp;#39;assets/built/&amp;#39;))
+});&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/yoongunhee92/26f628c24aaaf456c2e9c7a62eea0d80.js&quot;&gt; &lt;/script&gt;</content>
 
       
       
